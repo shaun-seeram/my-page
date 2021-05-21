@@ -45,6 +45,10 @@ header {
     width: 60%;
 }
 
+.laptop, .iPad, .iPhone {
+    display: none;
+}
+
 .rightDiv {
     width: 40%;
     display: flex;
@@ -57,4 +61,34 @@ h1 {
 
 .titleRight {
     align-self: flex-end;
+}
+
+@media (max-width: 940px) {
+    .base {
+        display: none;
+    }
+
+    .laptop {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    .laptop {
+        display: none;
+    }
+
+    .iPad {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 480px) {
+    .iPad {
+        display: none;
+    }
+
+    .iPhone {
+        display: inline-block;
+    }
 }
