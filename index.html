@@ -19,9 +19,9 @@
         <div class="headLeft">
             <div>
                 <img src="./images/header-base.png" alt="" class="base">
-                <img src="./images/header-laptop.PNG" alt="" class="laptop">
-                <img src="./images/header-ipad.PNG" alt="" class="iPad">
-                <img src="./images/header-iphone.PNG" alt="" class="iPhone">
+                <img src="./images/header-laptop.png" alt="" class="laptop">
+                <img src="./images/header-ipad.png" alt="" class="iPad">
+                <img src="./images/header-iphone.png" alt="" class="iPhone">
             </div>
             <div>
                 <h1>Shaun Michael S</h1>
@@ -44,7 +44,7 @@
                 <li class="i3"><p>&lt;li&gt;<a href="#home">Home</a>&lt;/li&gt;</p></li>
                 <li class="i3"><p>&lt;li&gt;<a href="#aboutskills">About</a>&lt;/li&gt;</p></li>
                 <li class="i3"><p>&lt;li&gt;<a href="#aboutskills">Skills</a>&lt;/li&gt;</p></li>
-                <li class="i3"><p>&lt;li&gt;<a href="#portfolio">Portfolio</a>&lt;/li&gt;</p></li>
+                <li class="i3"><p>&lt;li&gt;<a href="#projects">Projects</a>&lt;/li&gt;</p></li>
                 <li class="i3"><p>&lt;li&gt;<a href="#contact">Contact</a>&lt;/li&gt;</p></li>
                 <li class="i2"><p>&lt;/ul&gt;</p></li>
                 <li class="i1"><p>&lt;/nav&gt;</p></li>
@@ -59,12 +59,14 @@
 
     <nav>
         <div class="wrapper">
-            <p>Shaun Michael S</p>
+            <p class="name">Shaun Michael S</p>
+            <p class="mobileName">SMS</p>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#aboutskills">About</a></li>
-                <li><a href="#aboutskills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dLink"><a href="#skills">Skills</a></li>
+                <li class="mLink"><a href="#skill">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="https://www.linkedin.com/in/shaunms/"><span class="iconify" data-icon="akar-icons:linkedin-fill" data-inline="false"></span></a></li>
             </ul>
@@ -72,13 +74,16 @@
     </nav>
 
     <main>
-        <div class="invisidiv" id="aboutskills"></div>
+        <div class="invisidiv" id="about">
+            <p class="dLink" id="skills"></p>
+        </div>
         <div class="flexSections wrapper">
             <section class="about">
                     <h2>&lt;"About"&gt;</h2>
-                    <p>Hey, It’s Shaun. I’m a Front End Web Developer from Toronto, ON. I’ve been interested in Web Development since elementary school in the early 2000s, building my first pages on a platform called Geocities. Remember that? At the time, I never saw developing web pages as a potential career path, and with barely any resources to continue my growth, my focus shifted to customer service. I spent the last 10 years working in a Retail environment, managing teams of 20 - 40 employees and developing daily procedures. But I’ve always wanted to pivot back into something I really enjoyed. After completing Juno College’s Web Development bootcamp, as well as two development courses prior, I’m ready to rejoin the Web Development world. Take a look down below at a selection of pieces I’ve made, and if anything intrigues you, hit me up! I’d love to chat.</p>
+                    <p>Hey, it’s Shaun. I’m a Front End Web Developer from Toronto, ON. I’ve been interested in Web Development since elementary school in the early 2000s, building my first pages on a platform called Geocities. Remember that? At the time, I never saw developing web pages as a potential career path, and with barely any resources to continue my growth, my focus shifted to customer service. I spent the last 10 years working in a Retail environment, managing teams of 20 - 40 employees and developing daily procedures. But I’ve always wanted to pivot back into something I really enjoyed. After completing Juno College’s Web Development bootcamp, as well as two development courses prior, I’m ready to rejoin the Web Development world. Take a look down below at a selection of pieces I’ve made, and if anything intrigues you, hit me up! I’d love to chat.</p>
             </section>
 
+            <div class="invisidiv mLink" id="skill"></div>
             <section class="skills">
                     <h2>&lt;"Skills"&gt;</h2>
                     <div class="skillGrid">
@@ -107,15 +112,96 @@
                         <div><span class="iconify" data-icon="fluent:thinking-20-filled" data-inline="false"></span>
                         <p>Problem Solving</p></div>
                     </div>
+                    <a href="" class="resume">Resume</a>
             </section>
         </div>
 
-        <div class="invisidiv" id="portfolio"></div>
-        <section class="portfolio">
-            <div class="wrapper">
-                <h2>&lt;"Portfolio"&gt;</h2>
-                <p>Coming Soon...</p>
-            </div>
+        <div class="invisidiv" id="projects"></div>
+        <section class="projects wrapper">
+                <h2>&lt;"Projects"&gt;</h2>
+                <div class="projectWrapper">
+                    <div class="imageContainer">
+                        <img src="./images/Book.png" alt="">
+                        <div class="projectLinks">
+                            <a href="https://github.com/project4moviebook/movie-or-book">GitHub</a>
+                            <a href="https://youthful-hodgkin-b1fe8f.netlify.app/">Live</a>
+                        </div>
+                    </div>
+                    <div class="projectDescription">
+                        <h3><span>Is The Book Better?</span></h3>
+                        <p>Drawing from two APIs (Google Books and The Movie Database), this web app takes the users movie search query and compares it with it's book counterpart. Successful searches are then stored in the search history bar, powered by Google Firebase. There is unfortunately a bug in the search history bar that my group could not get rid of. Please ignore him.</p>
+                        <ul>
+                            <li><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="cib:javascript" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="fa-brands:react" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="simple-icons:firebase" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="eos-icons:api" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="bi:people-fill" data-inline="false"></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="projectWrapper">
+                    <div class="imageContainer">
+                        <img src="./images/ACM.png" alt="">
+                        <div class="projectLinks">
+                            <a href="https://github.com/shaun-seeram/shaunSeeramProjectThree">GitHub</a>
+                            <a href="https://peaceful-goldstine-e420cf.netlify.app/">Live</a>
+                        </div>
+                    </div>
+                    <div class="projectDescription">
+                        <h3><span>Animal Crossing Music</span></h3>
+                        <p>Drawing from the ACNH API, this mini-store (inspired by HMV) sells only albums from world-renowned musician and DJ, K.K. Slider. Feel free to add to cart, but we do have a strict limit of 1 per person. After you add... you can either remove it, or contact me for my Paypal.</p>
+                        <ul>
+                            <li><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="cib:javascript" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="fa-brands:react" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="eos-icons:api" data-inline="false"></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="projectWrapper">
+                    <div class="imageContainer">
+                        <img src="./images/Fetch.png" alt="">
+                        <div class="projectLinks">
+                            <a href="https://github.com/shaunAndLyleProjectTwo/projectTwo">GitHub</a>
+                            <a href="https://thirsty-heisenberg-bde734.netlify.app/">Live</a>
+                        </div>
+                    </div>
+                    <div class="projectDescription">
+                        <h3><span>Fetch A Dog!</span></h3>
+                        <p>If you're not a dog, keep scrolling. This was another paired project, and used information from both The Dog API as well as Wikipedia. Users visiting the site are greeted by Newt, my project partner's doggo. He lives forever. The user then has the option to either click on the "Fetch!" button to generate a random dog, or choose a breed from the drop down menu. Once a new dog has been chosen, stats and pictures are pulled from the first API, while the description comes from Wikipedia.</p>
+                        <ul>
+                            <li><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="cib:sass" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="cib:javascript" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="eos-icons:api" data-inline="false"></span></li>
+                            <l1><span class="iconify" data-icon="bi:people-fill" data-inline="false"></span></l1>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="projectWrapper">
+                    <div class="imageContainer">
+                        <img src="./images/Number.png" alt="">
+                        <div class="projectLinks">
+                            <a href="https://github.com/shaun-seeram/numberGame">GitHub</a>
+                            <a href="https://competent-lewin-485839.netlify.app/">Live</a>
+                        </div>
+                    </div>
+                    <div class="projectDescription">
+                        <h3><span>The Number Game</span></h3>
+                        <p>This is one of the earlier projects I completed as part of a pre-bootcamp JavaScript course. I was very happy with the end result and had to include it here. The point of the Number Game (I couldn't think of a name) is to click on the matching number within the time allotted. Every 10 rounds, the set timer is reduced by 2 seconds. My high score is Round 44, and 2240pts.</p>
+                        <ul>
+                            <li><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span></li>
+                            <li><span class="iconify" data-icon="cib:javascript" data-inline="false"></span></li>
+                        </ul>
+                    </div>
+                </div>
         </section>
 
         <div class="invisidiv" id="contact"></div>
