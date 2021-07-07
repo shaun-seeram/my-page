@@ -197,6 +197,11 @@ nav ul {
     margin: 0 100px;
 }
 
+.secret {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-decoration: underline;
+}
+
 /* Skills */
 .skillGrid {
     display: grid;
