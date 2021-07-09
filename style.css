@@ -189,7 +189,8 @@ nav ul {
 }
 
 .about h2,
-.skills h2 {
+.skills h2,
+.projects h2 {
     margin-bottom: 20px;
 }
 
@@ -289,7 +290,7 @@ span {
 /* Contact */
 .contact {
     padding: 20px 0;
-    height: 70vh;
+    min-height: 70vh;
     background-color: #FEF5EC;
     font-size: 2rem;
 }
@@ -397,12 +398,6 @@ footer {
 }
 
 @media (max-width: 675px) {
-    nav ul {
-        width: 85%;
-    }
-}
-
-@media (max-width: 588px) {
     .name {
         display: none;
     }
@@ -411,8 +406,28 @@ footer {
         display: unset;
     }
 
+    nav ul {
+        width: 85%;
+    }
+}
+
+@media (max-width: 588px) {
     .contact {
         font-size: 1.6rem;
+    }
+
+    .projectWrapper {
+        display: unset;
+    }
+
+    .projectDescription {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .imageContainer {
+        width: 100%;
+        margin-bottom: 25px;
     }
 }
 
@@ -423,5 +438,9 @@ footer {
 
     .iPhone {
         display: inline-block;
+    }
+
+    .contactFlex {
+        width: unset;
     }
 }
