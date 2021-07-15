@@ -327,6 +327,10 @@ footer {
     text-align: center;
 }
 
+footer a {
+    text-decoration: underline;
+}
+
 /* Media Queries */
 
 @media (max-width: 1441px) {
