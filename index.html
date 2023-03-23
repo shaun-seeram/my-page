@@ -5,229 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Code+Pro&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Jost&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style2.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
     <title>Shaun Michael S - Web Developer</title>
 </head>
 <body>
 
-    <!-- HEADER -->
+    <!-- Header -->
 
-    <header class="wrapper" id="home">
-
-        <div class="headLeft">
-            <div>
-                <img src="./images/header-base.png" alt="Drawing of me at my desk!" class="base">
-                <img src="./images/header-laptop.png" alt="Drawing of me at my desk!" class="laptop">
-                <img src="./images/header-ipad.png" alt="Drawing of me at my desk!" class="iPad">
-                <img src="./images/header-iphone.png" alt="Drawing of me at my desk!" class="iPhone">
+    <header>
+        <nav>
+            <h1>SHAUN MICHAEL S</h1>
+            <div class="navList">
+                <a href="#about" class="navAbout">About</a>
+                <a href="#experience" class="navExperience">Experience</a>
+                <a href="#contact" class="navContact">Contact</a>
+                <!-- <a href="" class="nav90s">90s</a> -->
             </div>
-            <div>
-                <h1>Shaun Michael S</h1>
-                <div class="devTitle">
-                    <p>Front End Web Developer - Toronto, ON</p>
-                </div>
-            </div>
-        </div>
-        <div class="headRight">
-            <ul>
-                <li><p>&lt;!DOCTYPE html&gt;</p></li>
-                <li><p>&lt;html lang="en"&gt;</p></li>
-                <li><p>&lt;head&gt;</p></li>
-                <li class="i1"><p>&lt;link rel="stylesheet" href="./style.css"&gt;</p></li>
-                <li class="i1"><p>&lt;title>Shaun Michael S - Web Developer&lt;/title&gt;</p></li>
-                <li><p>&lt;/head&gt;</p></li>
-                <li><p>&lt;body&gt;</p></li>
-                <li class="i1"><p>&lt;nav&gt;</p></li>
-                <li class="i2"><p>&lt;ul&gt;</p></li>
-                <li class="i3"><p>&lt;li&gt;<a href="#home">Home</a>&lt;/li&gt;</p></li>
-                <li class="i3"><p>&lt;li&gt;<a href="#about">About</a>&lt;/li&gt;</p></li>
-                <li class="i3"><p>&lt;li&gt;<a href="#skills">Skills</a>&lt;/li&gt;</p></li>
-                <li class="i3"><p>&lt;li&gt;<a href="#projects">Projects</a>&lt;/li&gt;</p></li>
-                <li class="i3"><p>&lt;li&gt;<a href="#contact">Contact</a>&lt;/li&gt;</p></li>
-                <li class="i2"><p>&lt;/ul&gt;</p></li>
-                <li class="i1"><p>&lt;/nav&gt;</p></li>
-                <li><p>&lt;/body&gt;</p></li>
-                <li><p>&lt;/html&gt;</p></li>
-            </ul>
-        </div>
+        </nav>
 
+        <p class="smallSM" aria-hidden="true">SHAUN MICHAEL</p>
+        <span class="bigS" aria-hidden="true">S</span>
     </header>
 
-    <!-- NAV -->
-
-    <nav>
-        <div class="wrapper">
-            <p class="name">Shaun Michael S</p>
-            <p class="mobileName">SMS</p>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li class="dLink"><a href="#skills">Skills</a></li>
-                <li class="mLink"><a href="#skill">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://www.linkedin.com/in/shaunms/"><span class="iconify" data-icon="akar-icons:linkedin-fill" data-inline="false"></span></a></li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Main -->
 
     <main>
-        <div class="invisidiv" id="about">
-            <p class="dLink" id="skills"></p>
-        </div>
-        <div class="flexSections wrapper">
-            <section class="about">
-                    <h2>&lt;"About"&gt;</h2>
-                    <p>Hey, it’s Shaun. I’m a Front End Web Developer from Toronto, ON. I’ve been interested in Web Development since elementary school in the early <a href="./index90s.html" class="secret">2000s</a>, building my first pages on a platform called Geocities. Remember that? At the time, I never saw developing web pages as a potential career path, and with barely any resources to continue my growth, my focus shifted to customer service. I spent the last 10 years working in a Retail environment, managing teams of 20 - 40 employees and developing daily procedures. But I’ve always wanted to pivot back into something I really enjoyed. After completing Juno College’s Web Development bootcamp, as well as two development courses prior, I’m ready to rejoin the Web Development world. Take a look down below at a selection of pieces I’ve made, and if anything intrigues you, hit me up! I’d love to chat.</p>
-            </section>
 
-            <div class="invisidiv mLink" id="skill"></div>
-            <section class="skills">
-                    <h2>&lt;"Skills"&gt;</h2>
-                    <div class="skillGrid">
-                        <div><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-                        <p>HTML</p></div>
-                        <div><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span>
-                        <p>CSS</p></div>
-                        <div><span class="iconify" data-icon="cib:sass" data-inline="false"></span>
-                        <p>SCSS</p></div>
-                        <div><span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-                        <p>JavaScript</p></div>
-                        <div><span class="iconify" data-icon="fa-brands:react" data-inline="false"></span>
-                        <p>React</p></div>
-                        <div><span class="iconify" data-icon="simple-icons:firebase" data-inline="false"></span>
-                        <p>Firebase</p></div>
-                        <div><span class="iconify" data-icon="cib:git" data-inline="false"></span>
-                        <p>Git</p></div>
-                        <div><span class="iconify" data-icon="mdi:responsive" data-inline="false"></span>
-                        <p>Responsive Design</p></div>
-                        <div><span class="iconify" data-icon="bi:people-fill" data-inline="false"></span>
-                        <p>Collaboration</p></div>
-                        <div><span class="iconify" data-icon="fa-solid:baby" data-inline="false"></span>
-                        <p>Making Babies Cry</p></div>
-                        <div><span class="iconify" data-icon="el:person" data-inline="false"></span>
-                        <p>Leadership</p></div>
-                        <div><span class="iconify" data-icon="fluent:thinking-20-filled" data-inline="false"></span>
-                        <p>Problem Solving</p></div>
-                    </div>
-                    <a href="./images/shaunSeeramResume.pdf" class="resume">Resume</a>
-            </section>
-        </div>
+        <!-- About Section -->
 
-        <div class="invisidiv" id="projects"></div>
-        <section class="projects wrapper">
-                <h2>&lt;"Projects"&gt;</h2>
+        <section id="about">
 
-                <div class="projectWrapper">
-                    <div class="imageContainer">
-                        <img src="./images/Block.png" alt="Screenshot of the 'Not Blockbusters' project.">
-                        <div class="projectLinks">
-                            <a href="https://github.com/three-amigoes/movie-app">GitHub</a>
-                            <a href="https://notblockbusters.netlify.app/">Live</a>
-                        </div>
-                    </div>
-                    <div class="projectDescription">
-                        <h3><span>Not Blockbusters</span></h3>
-                        <p>Welcome to our very original concept that's definately not a knockoff of another 90s video rental store! How can we help you? Users are able to query movies, view details and save to the Firebase favorites list. Once a selection of films have been added, users can then filter by genre/time to find a film to watch that meets their specifications.</p>
-                        <ul>
-                            <li><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="cib:javascript" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="fa-brands:react" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="simple-icons:firebase" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="eos-icons:api" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="bi:people-fill" data-inline="false"></span></li>
-                        </ul>
-                    </div>
-                </div>
+            <h2>About</h2>
 
-                <div class="projectWrapper">
-                    <div class="imageContainer">
-                        <img src="./images/Book.png" alt="Screenshot of the 'Is The Book Better' project.">
-                        <div class="projectLinks">
-                            <a href="https://github.com/project4moviebook/movie-or-book">GitHub</a>
-                            <a href="https://youthful-hodgkin-b1fe8f.netlify.app/">Live</a>
-                        </div>
-                    </div>
-                    <div class="projectDescription">
-                        <h3><span>Is The Book Better?</span></h3>
-                        <p>Drawing from two APIs (Google Books and The Movie Database), this web app takes the users movie search query and compares it with it's book counterpart. Successful searches are then stored in the search history bar, powered by Google Firebase. There is unfortunately a bug in the search history bar that my group could not get rid of. Please ignore him.</p>
-                        <ul>
-                            <li><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="cib:javascript" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="fa-brands:react" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="simple-icons:firebase" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="eos-icons:api" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="bi:people-fill" data-inline="false"></span></li>
-                        </ul>
-                    </div>
-                </div>
+            <p>A Front End Web Developer from Toronto, ON. I’ve been interested in Web Development since elementary school in the early 2000s, building my first pages on a platform called Geocities. At the time, I never saw developing web pages as a potential career path, and with barely any resources to continue my growth, my focus shifted to customer service. While I've spent over 10 years working in a Retail environment, managing teams of 20 - 40 employees and developing daily procedures, I’ve always wanted to pivot back into the development field. After completing Juno College’s Web Development bootcamp, as well as two accelerated development courses prior, I’m ready to rejoin the Web Development world. Take a look down below at a selection of my work, and if anything intrigues you, hit me up! I’d love to chat.</p>
 
-                <div class="projectWrapper">
-                    <div class="imageContainer">
-                        <img src="./images/ACM.png" alt="Screenshot of the 'Animal Crossing Music' project.">
-                        <div class="projectLinks">
-                            <a href="https://github.com/shaun-seeram/shaunSeeramProjectThree">GitHub</a>
-                            <a href="https://peaceful-goldstine-e420cf.netlify.app/">Live</a>
-                        </div>
-                    </div>
-                    <div class="projectDescription">
-                        <h3><span>Animal Crossing Music</span></h3>
-                        <p>Drawing from the ACNH API, this mini-store (inspired by HMV) sells only albums from world-renowned musician and DJ, K.K. Slider. Feel free to add to cart, but we do have a strict limit of 1 per person. After you add... you can either remove it, or contact me for my Paypal.</p>
-                        <ul>
-                            <li><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="cib:javascript" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="fa-brands:react" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="eos-icons:api" data-inline="false"></span></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="skillGrid">
+                <div><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+                <p>HTML</p></div>
+                <div><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span>
+                <p>CSS</p></div>
+                <div><span class="iconify" data-icon="cib:sass" data-inline="false"></span>
+                <p>SCSS</p></div>
+                <div><span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
+                <p>JavaScript</p></div>
+                <div><span class="iconify" data-icon="fa-brands:react" data-inline="false"></span>
+                <p>React</p></div>
+                <div><span class="iconify" data-icon="vscode-icons:file-type-light-mustache"></span>
+                <p>Mustache.js</p></div>
+                <div><span class="iconify" data-icon="simple-icons:firebase" data-inline="false"></span>
+                <p>Firebase</p></div>
+                <div><span class="iconify" data-icon="cib:git" data-inline="false"></span>
+                <p>Git</p></div>
+                <div><span class="iconify" data-icon="mdi:responsive" data-inline="false"></span>
+                <p>Responsive Design</p></div>
+                <div><span class="iconify" data-icon="bi:people-fill" data-inline="false"></span>
+                <p>Collaboration</p></div>
+                <div><span class="iconify" data-icon="el:person" data-inline="false"></span>
+                <p>Leadership</p></div>
+                <div><span class="iconify" data-icon="fluent:thinking-20-filled" data-inline="false"></span>
+                <p>Problem Solving</p></div>
+            </div>
 
-                <div class="projectWrapper">
-                    <div class="imageContainer">
-                        <img src="./images/Number.png" alt="Screenshot of the 'Number Game' project.">
-                        <div class="projectLinks">
-                            <a href="https://github.com/shaun-seeram/numberGame">GitHub</a>
-                            <a href="https://competent-lewin-485839.netlify.app/">Live</a>
-                        </div>
-                    </div>
-                    <div class="projectDescription">
-                        <h3><span>The Number Game</span></h3>
-                        <p>This is one of the earlier projects I completed as part of a pre-bootcamp JavaScript course. I was very happy with the end result and had to include it here. The point of the Number Game (I couldn't think of a name) is to click on the matching number within the time allotted. Every 10 rounds, the set timer is reduced by 2 seconds. My high score is Round 44, and 2240pts.</p>
-                        <ul>
-                            <li><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span></li>
-                            <li><span class="iconify" data-icon="cib:javascript" data-inline="false"></span></li>
-                        </ul>
-                    </div>
-                </div>
         </section>
 
-        <div class="invisidiv" id="contact"></div>
-        <section class="contact">
-            <div class="wrapper">
-                <h2>&lt;"Contact"&gt;</h2>
-                <div class="contactFlex">
-                    <p>Always down for a chat.</p>
-                    <p>If my profile has intrigued you, send me a message!</p>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/shaunms/"><span class="iconify" data-icon="entypo-social:linkedin-with-circle" data-inline="false"></span> /shaunms</a></li>
-                        <li><a href="https://github.com/shaun-seeram"><span class="iconify" data-icon="logos:github-icon" data-inline="false"></span> /shaun-seeram</a></li>
-                        <li><a href="mailto:shaunseeram@hotmail.com"><span class="iconify" data-icon="ic:baseline-alternate-email" data-inline="false"></span> shaunseeram@hotmail.com</a></li>
-                    </ul>
+        <!-- Experience Section -->
+
+        <section id="experience">
+
+            <h2>Experience</h2>
+
+            <div class="experienceContainer">
+                <p><a href="https://www.q4inc.com" target="_blank">Q4 Inc.</a> - Web Developer I</p>
+                <p class="date">January 2022 - Present</p>
+                <p class="jobDescription">
+                    Under this position, I utilized our Q4 CMS system and Figma designs to customize/build, or redesign Investor Relations (IR) websites for new/current clients. <br /><br />
+
+                    I had the opportunity to assist various squads over the year, developing singular pages or features for existing clients on the Change Request (CR) team, fixing bugs and improving upon features within premade website templates on the Optimizations team, and providing after hours support/updates post launch on the Support team. <br /><br />
+
+                    I balanced multiple tasks at a time; working on new sites, fixing bugs for previously developed sites, and assisting squads.<br /><br />
+
+                    Examples: <a href="https://news.aa.com/" target="_blank">American Airlines Newsroom</a>, <a href="https://ir.manitowoc.com/" target="_blank">Manitowoc Company</a>, <a href="https://investors.o-i.com/" target="_blank">O-I Glass</a> & <a href="https://investors.rxo.com/" target="_blank">RXO Inc.</a>
+                </p>
+                <div class="techStack">
+                    <div><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+                    <p>HTML</p></div>
+                    <div><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span>
+                    <p>CSS</p></div>
+                    <div><span class="iconify" data-icon="cib:sass" data-inline="false"></span>
+                    <p>SCSS</p></div>
+                    <div><span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
+                    <p>JavaScript</p></div>
+                    <div><span class="iconify" data-icon="vscode-icons:file-type-light-mustache"></span>
+                    <p>Mustache.js</p></div>
                 </div>
             </div>
+
+            <div class="experienceContainer">
+                <p><a href="https://junocollege.com/" target="_blank">Juno College</a> - Web Development Immersive Bootcamp Graduate</p>
+                <p class="date">March 2021 - July 2021</p>
+                <p class="jobDescription">
+                    As a graduate from Juno's Front End Development Bootcamp, I spent a total of 6 months learning and strengthening Front End fundamentals.<br /><br />
+
+                    Over the months of March and April, I was enrolled in two accelerated courses at Juno to get a head start on the Bootcamp, focusing on HTML/CSS and JavaScript respectively. And between May and July, I was enrolled as a full-time student (M-F, 9-5) in the Bootcamp, which covered the fundamentals, but also introduced SCSS and React.<br /><br />
+
+                    Projects: <a href="https://youthful-hodgkin-b1fe8f.netlify.app/" target="_blank">Is The Book Better?</a> & <a href="https://notblockbusters.netlify.app/" target="_blank">Not Blockbusters</a>
+                </p>
+                <div class="techStack">
+                    <div><span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+                    <p>HTML</p></div>
+                    <div><span class="iconify" data-icon="simple-icons:css3" data-inline="false"></span>
+                    <p>CSS</p></div>
+                    <div><span class="iconify" data-icon="cib:sass" data-inline="false"></span>
+                    <p>SCSS</p></div>
+                    <div><span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
+                    <p>JavaScript</p></div>
+                    <div><span class="iconify" data-icon="fa-brands:react" data-inline="false"></span>
+                    <p>React</p></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+
+        <section id="contact">
+
+            <p>I'm always down for a chat. If my profile has intrigued you, please send me a message using the tabs on the left!</p>
+
         </section>
 
     </main>
 
-    <footer>
-        <p>Shaun Michael S - 2021 || Thanks to <a href="https://www.instagram.com/gillyducks">Renae R</a> for header graphic</p>
-    </footer>
+    <ul class="socialBubble">
+        <li><a href="./images/shaunSeeramResume.pdf" target="_blank"><span class="iconify" data-icon="ion:document-text"></span><span class="titleExpand">Resume</span></a></li>
+        <li><a href="https://www.linkedin.com/in/shaunms/" target="_blank"><span class="iconify" data-icon="entypo-social:linkedin-with-circle" data-inline="false"></span><span class="titleExpand">LinkedIn</span></a></li>
+        <li><a href="https://github.com/shaun-seeram" target="_blank"><span class="iconify" data-icon="logos:github-icon" data-inline="false"></span><span class="titleExpand">Github</span></a></li>
+        <li><a href="mailto:shaunseeram@hotmail.com"><span class="iconify" data-icon="ic:baseline-alternate-email" data-inline="false"></span><span class="titleExpand">email</span></a></li>
+    </ul>
+
     
 </body>
 </html>
