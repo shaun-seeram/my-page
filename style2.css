@@ -264,6 +264,10 @@ main section {
         padding-left: 60px;
     }
 
+    main section {
+        padding-top: 100px;
+    }
+
     #contact {
         margin-left: unset;
     }
